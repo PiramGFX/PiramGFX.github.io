@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title description">
+  <title id="title">작품 이미지 3 자리</title>
+  <desc id="description">세 번째 작품으로 교체할 흰색과 파란색 예시 이미지</desc>
+  <rect width="1600" height="1100" fill="#f8fbff" />
+  <rect x="0" y="0" width="26" height="1100" fill="#5b8def" />
+  <circle cx="1310" cy="245" r="170" fill="#e0ebff" />
+  <text x="155" y="555" fill="#111c2b" font-family="Arial, sans-serif" font-size="84" font-weight="700">YOUR GFX</text>
+  <text x="157" y="625" fill="#6480a6" font-family="Arial, sans-serif" font-size="27" letter-spacing="5">REPLACE IMAGE 03</text>
+  <text x="1440" y="960" fill="#9ab7eb" font-family="Arial, sans-serif" font-size="112" font-weight="700" text-anchor="end">03</text>
+</svg>

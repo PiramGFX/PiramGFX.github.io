@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title description">
+  <title id="title">작품 이미지 1 자리</title>
+  <desc id="description">첫 번째 작품으로 교체할 밝은 파란색 예시 이미지</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ff" />
+      <stop offset="1" stop-color="#dfeaff" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bg)" />
+  <path d="M160 190h1280M160 790h1280" stroke="#83a8ec" stroke-width="2" opacity=".48" />
+  <text x="160" y="455" fill="#18365f" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-2">YOUR GFX</text>
+  <text x="160" y="525" fill="#5b78a3" font-family="Arial, sans-serif" font-size="27" letter-spacing="5">REPLACE IMAGE 01</text>
+  <text x="1435" y="790" fill="#5b8def" font-family="Arial, sans-serif" font-size="115" font-weight="700" text-anchor="end">01</text>
+</svg>

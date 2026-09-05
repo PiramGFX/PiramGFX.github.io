@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1380" role="img" aria-labelledby="title description">
+  <title id="title">작품 이미지 5 자리</title>
+  <desc id="description">다섯 번째 작품으로 교체할 흰색 예시 이미지</desc>
+  <rect width="1200" height="1380" fill="#ffffff" />
+  <rect x="90" y="90" width="1020" height="1200" rx="5" fill="#f1f5fb" />
+  <path d="M250 850h700" stroke="#9db8e0" stroke-width="2" />
+  <text x="250" y="650" fill="#17283f" font-family="Arial, sans-serif" font-size="72" font-weight="700">YOUR GFX</text>
+  <text x="252" y="718" fill="#7188aa" font-family="Arial, sans-serif" font-size="24" letter-spacing="5">REPLACE IMAGE 05</text>
+  <text x="950" y="1060" fill="#aec4e7" font-family="Arial, sans-serif" font-size="98" font-weight="700" text-anchor="end">05</text>
+</svg>
