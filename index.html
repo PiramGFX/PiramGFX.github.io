@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Piram GFX의 작품을 모아둔 개인 갤러리입니다."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Piram GFX</title>
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="gallery-data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#gallery">작품으로 바로가기</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Piram GFX 맨 위로 이동">
+        <span class="brand-name">Piram</span>
+        <span class="brand-mark">GFX</span>
+      </a>
+
+      <p class="work-count"><span id="work-count">0</span> WORKS</p>
+    </header>
+
+    <main class="site-main" id="top">
+      <section class="gallery" id="gallery" aria-label="GFX 작품 갤러리"></section>
+
+      <noscript>
+        <p class="empty-message">이 갤러리를 보려면 브라우저에서 JavaScript를 켜 주세요.</p>
+      </noscript>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="current-year">2026</span> Piram GFX 본 사이트에 게시된 모든 창작물의 저작권은 제작자(Piram)에게 있습니다. 제작자의 동의 없는 무단 전재, 복제, 배포, 상업적 이용 및 2차 가공(모작, 수정, 재가공 등)을 금합니다. </span>
+      <span>Visual Archive</span>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="작품 크게 보기">
+      <div class="lightbox-inner">
+        <button class="lightbox-close" type="button" aria-label="닫기">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 5l14 14M19 5L5 19" />
+          </svg>
+        </button>
+
+        <button class="lightbox-nav lightbox-prev" type="button" aria-label="이전 작품">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M15 5l-7 7 7 7" />
+          </svg>
+        </button>
+
+        <figure class="lightbox-figure">
+          <img id="lightbox-image" src="" alt="" />
+          <figcaption class="lightbox-meta">
+            <span id="lightbox-title"></span>
+            <span id="lightbox-counter"></span>
+          </figcaption>
+        </figure>
+
+        <button class="lightbox-nav lightbox-next" type="button" aria-label="다음 작품">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </dialog>
+  </body>
+</html>
