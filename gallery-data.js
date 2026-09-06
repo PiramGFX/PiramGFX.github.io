@@ -17,8 +17,8 @@ window.PIRAM_GALLERY = [
     title: "Moonlight",
   },
   {
-    src: "images/Creating.png",
-    alt: "creating",
-    title: "",
+    src: "images/GFX-2.png",
+    alt: "Desert",
+    title: "Desert",
   }
 ];
